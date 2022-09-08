@@ -20,8 +20,8 @@ veggy <- cabbages
  The cabbages data from the MASS package is loaded into a dataframe called veggy. Complete this report by answering the following two questions  
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
-$H_0$: write what nicole said  
-$H_A$: write the alternative to what nicole said
+$H_0$: There is no difference in vitamin C between C39 and C52 cultivation  
+$H_A$: The average amount of Vitamin C is statistically different in C39 than the C52 cultivation
 
 # Methods
 
@@ -47,7 +47,7 @@ The explanatory numerical is which cultivation method, it is a categorical
 plot(VitC~Cult,data=veggy)
 ```
   
-  This box plot shows that the median of C52 cultivation has a higher content of vitaminC
+  This box plot shows that the median of C52 cultivation has a higher content of vitaminC of versus C39 cultivation
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
