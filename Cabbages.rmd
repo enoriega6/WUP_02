@@ -47,9 +47,15 @@ The explanatory numerical is which cultivation method, it is a categorical
 plot(VitC~Cult,data=veggy)
 ```
   
-  This box plot shows that the median of C52 cultivation has a higher content of vitaminC of versus C39 cultivation
+  This box plot shows that the median of C52 cultivation has a higher content of vitamin C of versus the amount of vitamin C in C39 cultivation
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+This table shows that the median amount of vitamin C of C39 is 51, and the cultivation of C52 has 64.5 of vitamin C
 
 ## Inferential Results
 
