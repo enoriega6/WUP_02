@@ -42,6 +42,13 @@ The explanatory numerical is which cultivation method, it is a categorical
 
 ### Numerical Descriptive Results
 
+
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+  
+  This box plot shows that the median of C52 cultivation has a higher content of vitaminC
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
